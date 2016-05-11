@@ -7,7 +7,7 @@ import config
 
 url = "http://console.arya.ai/api/v2/entityExtraction/query?access_token="+config.access_token+"&m_key="+config.m_key+"&app="+config.app_name
 headers = {'User-Agent': 'Mozilla/5.0', 'Content-Type': 'application/json'}
-url_intent = "http://console.arya.ai/api/v2/faq/query?access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjIzMjY4NjI5OTg5MTF9.FuGVh4xJHlF7Yd6sPyybL55XdNN3aYBhi13BpWRvn3s&m_key=IntentClassChatBot&app=TestChatBox"
+url_intent = "http://console.arya.ai/api/v2/faq/query?access_token=&m_key=IntentClassChatBot&app=TestChatBox"
 threshold_reprints = 3
 
 def college_chat_begin(this_intent):
